@@ -4,7 +4,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-var unsplash = new Vue({
+new Vue({
   el: '#app',
   router,
   render: h => h(App),
