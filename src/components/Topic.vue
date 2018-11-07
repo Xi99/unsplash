@@ -6,8 +6,18 @@
     
 </head>
 <body>
-    <h1>Test</h1>
+    <div id="mount-point">
+    
+
+        <img 
+        class="bfgImage"
+        id="image"
+        :src="imgSrc" />
+        
+    </div>
 </body>
+<script type="text/javascript" src="main.js"></script>
+
 </html>
 </template>
 
@@ -21,5 +31,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

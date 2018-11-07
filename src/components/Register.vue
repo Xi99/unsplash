@@ -9,7 +9,7 @@
         name="tag" 
         id="userInput" 
         type="text"
-        v-model="topicType" />
+        v-model="fetchGif" />
 
         <br>
     
