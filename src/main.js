@@ -4,8 +4,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-var unsplash = new Vue({
-  el: '#mount-point',
+new Vue({
+  el: '#app',
+  router,
   render: h => h(App),
   data() {
       return {
